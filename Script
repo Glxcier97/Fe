@@ -6,11 +6,12 @@ local win = Lib:New({
 })
 
 --win:Tab(title <string>)
-local tab = win:Tab("Tab 1")
+local tab = win:Tab("Fe")
+local tab2 = win:Tab("Extra")
 
 --tab:Section(title <string>)
 local sec = tab:Section("Fe's")
-local second = tab:Section("Extra")
+local second22 = tab2:Section("Extra")
 
 sec:Button("Sonic", function()
   loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
@@ -213,7 +214,7 @@ end)
 sec:Button("Vape", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/e/main/dam'))()
 end)
-second:Button("Reset", function()
+secondary:Button("Reset", function()
   local char = game.Players.LocalPlayer.Character
 		if char:FindFirstChildOfClass("Humanoid") then char:FindFirstChildOfClass("Humanoid"):ChangeState(15) end
 		char:ClearAllChildren()
@@ -224,10 +225,10 @@ second:Button("Reset", function()
 		game.Players.LocalPlayer.Character = char
 		newChar:Destroy()
 end)
-second:CreateButton("Netless", "Netless Reanimation", function()
+secondary:Button("Netless", function()
   	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/Fe-Script/main/Main'))()
 end
-second:CreateButton("Reanimation", "Reanimation", function()
+secondary:Button("Reanimation", function()
   	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/diajfiu/main/eee'))()
   end
 end)
