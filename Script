@@ -212,6 +212,9 @@ end)
 sec:Button("Vape", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/e/main/dam'))()
 end)
+sec:Button("Hat V2", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/Hat-Fe/main/e'))()
+end)
 secondary:Button("Reset", function()
   local char = game.Players.LocalPlayer.Character
 		if char:FindFirstChildOfClass("Humanoid") then char:FindFirstChildOfClass("Humanoid"):ChangeState(15) end
