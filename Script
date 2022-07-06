@@ -1,5 +1,4 @@
 local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/sol"))()
-local main = library:CreateWindow("MoonLIB", "#19cf83", 9160626035)
 local win = Lib:New({
   Name = "Hellz Fe Paid",
   FolderToSave = "Stuff"
@@ -11,8 +10,7 @@ local tab2 = win:Tab("Extra")
 
 --tab:Section(title <string>)
 local sec = tab:Section("Fe's")
-local second22 = tab2:Section("Extra")
-
+local secondary = tab2:Section("Extra")
 sec:Button("Sonic", function()
   loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
 end)
@@ -227,9 +225,7 @@ secondary:Button("Reset", function()
 end)
 secondary:Button("Netless", function()
   	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/Fe-Script/main/Main'))()
-end
+end)
 secondary:Button("Reanimation", function()
   	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/diajfiu/main/eee'))()
-  end
 end)
-end
